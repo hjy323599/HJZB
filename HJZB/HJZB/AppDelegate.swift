@@ -14,7 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-     
+        
+//        HJMainCtrl 
+        
+        
+        
+        UITabBar.appearance().tintColor = UIColor.orangeColor()
+        
         return true
     }
 

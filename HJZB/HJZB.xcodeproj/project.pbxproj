@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330FDD2E1DA2857600A6784C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330FDD2D1DA2857600A6784C /* Home.storyboard */; };
+		330FDD311DA2858800A6784C /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330FDD2F1DA2858800A6784C /* Live.storyboard */; };
+		330FDD331DA285A800A6784C /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330FDD321DA285A800A6784C /* Follow.storyboard */; };
+		330FDD361DA285CB00A6784C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330FDD341DA285CB00A6784C /* Profile.storyboard */; };
+		330FDD381DA2884000A6784C /* HJMainCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330FDD371DA2884000A6784C /* HJMainCtrl.swift */; };
 		33412D661DA2037700F12262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33412D651DA2037700F12262 /* AppDelegate.swift */; };
-		33412D681DA2037700F12262 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33412D671DA2037700F12262 /* ViewController.swift */; };
 		33412D6B1DA2037700F12262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33412D691DA2037700F12262 /* Main.storyboard */; };
 		33412D6D1DA2037700F12262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33412D6C1DA2037700F12262 /* Assets.xcassets */; };
 		33412D701DA2037700F12262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33412D6E1DA2037700F12262 /* LaunchScreen.storyboard */; };
@@ -34,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		330FDD2D1DA2857600A6784C /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = ../Main/Home.storyboard; sourceTree = "<group>"; };
+		330FDD301DA2858800A6784C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HJZB/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		330FDD321DA285A800A6784C /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = ../Main/Follow.storyboard; sourceTree = "<group>"; };
+		330FDD351DA285CB00A6784C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HJZB/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		330FDD371DA2884000A6784C /* HJMainCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJMainCtrl.swift; sourceTree = "<group>"; };
 		33412D621DA2037700F12262 /* HJZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33412D651DA2037700F12262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33412D671DA2037700F12262 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33412D6A1DA2037700F12262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33412D6C1DA2037700F12262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33412D6F1DA2037700F12262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +82,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		330FDD1E1DA27A2F00A6784C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				330FDD221DA27A2F00A6784C /* Main */,
+				330FDD201DA27A2F00A6784C /* Home */,
+				330FDD211DA27A2F00A6784C /* Live */,
+				330FDD1F1DA27A2F00A6784C /* Follow */,
+				330FDD231DA27A2F00A6784C /* Profile */,
+				330FDD241DA27A5200A6784C /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		330FDD1F1DA27A2F00A6784C /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				330FDD321DA285A800A6784C /* Follow.storyboard */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		330FDD201DA27A2F00A6784C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				330FDD2D1DA2857600A6784C /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		330FDD211DA27A2F00A6784C /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				330FDD2F1DA2858800A6784C /* Live.storyboard */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		330FDD221DA27A2F00A6784C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				33412D691DA2037700F12262 /* Main.storyboard */,
+				330FDD371DA2884000A6784C /* HJMainCtrl.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		330FDD231DA27A2F00A6784C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				330FDD341DA285CB00A6784C /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		330FDD241DA27A5200A6784C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		33412D591DA2037700F12262 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +166,8 @@
 		33412D641DA2037700F12262 /* HJZB */ = {
 			isa = PBXGroup;
 			children = (
+				330FDD1E1DA27A2F00A6784C /* Classes */,
 				33412D651DA2037700F12262 /* AppDelegate.swift */,
-				33412D671DA2037700F12262 /* ViewController.swift */,
-				33412D691DA2037700F12262 /* Main.storyboard */,
 				33412D6C1DA2037700F12262 /* Assets.xcassets */,
 				33412D6E1DA2037700F12262 /* LaunchScreen.storyboard */,
 				33412D711DA2037700F12262 /* Info.plist */,
@@ -187,6 +255,7 @@
 		33412D5A1DA2037700F12262 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HJ;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = HJY;
@@ -232,6 +301,10 @@
 				33412D701DA2037700F12262 /* LaunchScreen.storyboard in Resources */,
 				33412D6D1DA2037700F12262 /* Assets.xcassets in Resources */,
 				33412D6B1DA2037700F12262 /* Main.storyboard in Resources */,
+				330FDD311DA2858800A6784C /* Live.storyboard in Resources */,
+				330FDD2E1DA2857600A6784C /* Home.storyboard in Resources */,
+				330FDD361DA285CB00A6784C /* Profile.storyboard in Resources */,
+				330FDD331DA285A800A6784C /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +329,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33412D681DA2037700F12262 /* ViewController.swift in Sources */,
 				33412D661DA2037700F12262 /* AppDelegate.swift in Sources */,
+				330FDD381DA2884000A6784C /* HJMainCtrl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +366,31 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		330FDD2F1DA2858800A6784C /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330FDD301DA2858800A6784C /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		330FDD341DA285CB00A6784C /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330FDD351DA285CB00A6784C /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
 		33412D691DA2037700F12262 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				33412D6A1DA2037700F12262 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		33412D6E1DA2037700F12262 /* LaunchScreen.storyboard */ = {
@@ -399,7 +491,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = HJZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HJ.HJZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +504,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = HJZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HJ.HJZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +578,7 @@
 				33412D8C1DA2037800F12262 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33412D8D1DA2037800F12262 /* Build configuration list for PBXNativeTarget "HJZBTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +587,7 @@
 				33412D8F1DA2037800F12262 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33412D901DA2037800F12262 /* Build configuration list for PBXNativeTarget "HJZBUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +596,7 @@
 				33412D921DA2037800F12262 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
